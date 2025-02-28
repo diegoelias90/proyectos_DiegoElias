@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #003262;
+
+}
+
+.container {
+    display: flex;
+    gap: 30px;
+    position: relative; /* Cambiado para moverlo ligeramente */
+    left: 10%; /* Mueve el contenedor a la izquierda o derecha */
+    top: 20px; /* Mueve el contenedor hacia arriba o abajo */
+}
+
+.logo {
+    position: absolute; /* Permite mover el logo libremente */
+    left: -35%; /* Ajusta esta propiedad para mover el logo horizontalmente */
+    bottom: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo img {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    border-radius: 50%; /* Asegura que la imagen sea circular */
+    border: 1px solid white; /* Añade un borde blanco alrededor de la imagen */
+    top: -120%;
+    background-color: #777777;
+}
+
+.logo p {
+    font-weight: 900;
+    font-size: xx-large;
+    margin-top: -30px;
+    border-radius: 8%;
+    color: #003262;
+    padding: 15%;
+    background-color: #fed839;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info button {
+    background-color: #ffffff;
+    color: #003262;
+    font-weight: 600;
+    padding: 20px 40px; /* Aumenta el espacio interno */
+    width: 600px; /* Ajusta el ancho de los botones */
+    height: 100px; /* Ajusta la altura de los botones */
+    border: none;
+    left: 150%;
+    border-radius: 5px;
+    font-size: 18px; /* Ajusta el tamaño de la fuente */
+    cursor: pointer;
+    text-align: center; /* Centra el texto dentro del botón */
+}
+
+.info button:hover {
+    background-color: #d3d3d3; /* Color al hacer hover */
+}
+
+
+
+
