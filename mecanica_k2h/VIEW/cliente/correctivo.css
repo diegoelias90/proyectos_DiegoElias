@@ -1,0 +1,97 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: rgb(30, 30, 30);
+    color: #fff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  .close-btn {
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  .close-btn a{
+    color: #ffffff;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  
+  .service {
+    background-color: #fff;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .service:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  .service img {
+    width: 700px;
+    height: 230px;
+    object-fit: cover;
+  }
+  .service.active {
+    background-color: #b7b7b6; 
+  }
+  
+  .service img:hover{
+    transform: scale(1.03);
+    transition: 0.2s ease;
+  }
+  
+  .service-info {
+    padding: 1rem;
+    flex: 1;
+    font-size: 18px;
+  }
+  
+  .service-info h2 {
+    margin-top: 0;
+    font-size: 40px;
+  }
+  
+  .service-info p {
+    line-height: 2.6;
+  }
+  .boton-confirmar {
+    background-color: #B1B1B1; 
+    border: none;
+    border-radius: 5px; 
+    color: #FFFFFF; 
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    width: 300px;
+    height: 50px;
+    align-self: center;
+  }
+  
+  .boton-confirmar a{
+    color: #ffffff;
+  }
+
+  .boton-container {
+    align-self: center;
+  }

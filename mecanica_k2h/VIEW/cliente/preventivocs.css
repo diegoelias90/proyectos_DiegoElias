@@ -1,0 +1,144 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #ccc; /* Opcional: para visualizar el contenedor */
+  border-radius: 8px;
+  width: 90%;
+  max-width: 500px;
+}
+
+/* Estilos para los campos de texto y de carga de imágenes */
+.model-input, .upload-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.model-input h3, .upload-input h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.model-input input[type="text"],
+.upload-input input[type="file"] {
+  padding: 10px;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Estilo para el contenedor del botón */
+.button-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Estilo del botón Confirmar */
+.boton-confirmar {
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 12px 30px;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.boton-confirmar:hover {
+  background-color: #0056b3;
+}
+
+/* Estilo general del body */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Estilo del encabezado */
+header {
+  background-color: rgb(30, 30, 30);
+  color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+.close-btn {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.close-btn a {
+  color: #ffffff;
+}
+
+/* Estilo para la sección de servicios */
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.service {
+  background-color: #fff;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.service:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.service img {
+  width: 700px;
+  height: 230px;
+  object-fit: cover;
+}
+
+.service.active {
+  background-color: #b7b7b6;
+}
+
+.service img:hover {
+  transform: scale(1.03);
+  transition: 0.2s ease;
+}
+
+.service-info {
+  padding: 1rem;
+  flex: 1;
+  font-size: 18px;
+}
+
+.service-info h2 {
+  margin-top: 0;
+  font-size: 40px;
+}
+
+.service-info p {
+  line-height: 2.6;
+}
